@@ -49,11 +49,27 @@ body h5{
     text-transform: uppercase;
     margin: 50px auto 30px 70px;
 }
-#summary{
+#summary,
+#overview,
+#history{
     background-color: #fff;
     padding: 30px;
+    margin-top: 20px;
 }
 #summary p{
     font-size: 17px;
     font-weight: bold;
+}
+#overview h1{
+    display: inline;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(0, 50, 231);
+}
+#overview h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#history .Education h4{
+    font-size: 20px;
 }
