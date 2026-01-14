@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   AppBar,
   Toolbar,
@@ -87,6 +87,7 @@ const App = () => {
   // Function to handle smooth scrolling to sections
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
+    activeSection()
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setActiveSection(id);
